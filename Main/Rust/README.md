@@ -4,7 +4,7 @@
 - [Prerequirements](#requirements)
 - [Installation](#installation)
 - [Usage](#whats-next)
-- [Post Apocalyptic](#programming)
+- [Pre-post Apocalyptic](#programming)
 
 >Welcome to my Rust teaching repository! 🦀🦀🦀
 
@@ -49,7 +49,8 @@ This commend helps in download for both macos and linux, in case for windows
 echo %PROCESSOR_ARCHITECTURE%
 ```
 with this command one would find their architecture, now go to [rust installation](https://forge.rust-lang.org/infra/other-installation-methods.html#standalone-installers) for standalone compiler (cause windows can only download new lang along-side rather then building it within).
-
+<br>
+note* if you use zed text editor then dont worry about going throught all this, for windows vscode is way-enough... but use vscodium,blah...blah..
 ## What's next❓
 <h4> After installing rust, you find a perfect project for yourself to fuel your thirst. </h3>
 
@@ -62,3 +63,54 @@ because it can **1)manage memory allocation and deallocation** rather then compl
 <br>
 ## Programming¿
 Nope. Cargo is pending....
+<br> 
+
+run the following for linux, macos and termux,
+
+```bash
+curl https://sh.rustup.rs -sSf | sh
+``` 
+
+windows ⚰️ install .exe this definitely safe looking [file](https://win.rustup.rs/) from this definitely safe looking [website](https://doc.rust-lang.org/cargo/getting-started/installation.html)...
+<br>
+anyways lets start building with cargo
+<br>
+## Code expected?:
+Create a folder in any destination you like (recommended to have easy file name rather then avg file name we create 
+
+<p align="center">
+  <img src="http://www.quickmeme.com/img/3c/3ccae4939acac4117d9b5e8cbcb52b5ce878eec293012f575ab0eac6263dff62.jpg" width="500" /> </p>
+
+<br>
+
+*Dont expect croped images, bruhh*
+ <br>
+
+ now try opening your terminal in the destined folder by right-click which show **open terminal** on both linux/macos and windows, whereas for termux try
+<br>
+
+```bash
+mkdir name && cd name
+```
+this will create and move you to the created folder, if you have trust-issue(me to bro, me to) use command
+
+```bash
+pwd
+```
+for verification.
+
+## Code: Example1:
+Lets speedrun from here,
+```bash
+cargo new filename
+```
+now go to the filename folder you can read/see different directories and files in which you have **src** folder, this is where you can find **main.rs** file.
+<br>
+Use **nano** for linux,termux,macos. Vim is just for peoples with superiority complex so I appreciate if you learn.
+<br>
+
+For now lets use Downloads/test1 as our directory/filename
+```bash
+nano Downloads/test1/src/main.rs
+```
+now we are starting our rust code
