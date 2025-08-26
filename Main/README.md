@@ -3,11 +3,11 @@
 Here are some of the topics you'll find here (updated regularly):
 
 - [x] Rust
-- [x] Electromagnets
+- [ ] Electromagnets
 - [x] Control System
-- [x] Calculus
-- [x] LTspice
-- [X] Matlab
+- [ ] Calculus
+- [ ] LTspice
+- [ ] Matlab
 - [ ] R
 - [ ] Java
 
