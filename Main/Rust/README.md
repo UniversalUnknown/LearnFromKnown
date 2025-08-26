@@ -140,6 +140,38 @@ fn main() {
 Neo, theres also one more thing you shouldnt forgot `println!` is a [macro](https://doc.rust-lang.org/book/ch20-05-macros.html#macros) which is not essential for now. Also `//..` is just typo like `#..` .
 <br>
 ## Example2
+
+<br> 
+
+- pre-requirement: Add dependency by adding `inquire = "0.7.5"` in ``Cargo.toml``, this file has been made when you created a docker file.
+
+<br>
+
+For example 
+```tree
+├── Cargo.lock
+├── Cargo.toml
+├── src
+│  └── main.rs
+└── target
+    └ ..
+```
+        
+this is the file structure, just after opening the your file right after `cargo new <filename>`. File `target` will be created after you run your program.
+
+```toml
+[package]
+name = "ipop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+inquire = "0.7.5"
+```
+Just add inquire version under dependence.
+
+<br>
+
 Since I am bored of stupid input and output, i made that no one can, nearly impossible to rebuild
 ...
 good luck in reverse-engineering this monster called cal-seeYou-later 
