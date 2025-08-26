@@ -4,7 +4,7 @@ Here are some of the topics you'll find here (updated regularly):
 
 - [x] Rust
 - [ ] Electromagnets
-- [x] Control System
+- [ ] Control System
 - [ ] Calculus
 - [ ] LTspice
 - [ ] Matlab
