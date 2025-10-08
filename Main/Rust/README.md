@@ -26,7 +26,7 @@ Beginners requirement: ... p.p.phone maybe?
 |--------|--------|
 | mobile | [termux](https://termux.dev/en/) |
 | Windows | cmd[preinstalled] |
-| Mac OS | You are own ur own 💀 |
+| Mac OS | You are on ur own 💀 |
 | Linux|  terminal[preinstalled]| 
 
 ## Installation
