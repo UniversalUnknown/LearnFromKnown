@@ -26,7 +26,7 @@ Beginners requirement: ... p.p.phone maybe?
 |--------|--------|
 | mobile | [termux](https://termux.dev/en/) |
 | Windows | cmd[preinstalled] |
-| Mac OS | You are on ur own 💀 |
+| Mac OS | You are on ur own 💀(jk) |
 | Linux|  terminal[preinstalled]| 
 
 ## Installation
@@ -87,7 +87,7 @@ anyways lets start building with cargo
 Create a folder in any destination you like (recommended to have easy file name rather then avg file name we create 
 
 <p align="center">
-  <img src="http://www.quickmeme.com/img/3c/3ccae4939acac4117d9b5e8cbcb52b5ce878eec293012f575ab0eac6263dff62.jpg" width="500" /> </p>
+  <img src="http://www.quickmeme.com/img/3c/3ccae4939acac4117d9b5e8cbcb52b5ce878eec293012f575ab0eac6263dff62.jpg" width="250" height="350" /> </p>
 
 <br>
 
@@ -220,13 +220,13 @@ fn div(a: u32, b: u32) -> u32 {
 dont expect to teach me, rather copy it and paste in your main.rs file, change few variable also function name and run it.
 Its not because of laziness(yes it is, i am editing for days), rather you can understand it yourself just by reading it(hopefully).
 Output should look like:
-()[https://github.com/UniversalUnknown/LearnFromKnown/blob/UniversalUnknown-assert-1/Main/Rust/Peek%202025-07-29%2020-55.gif]
+[](https://github.com/UniversalUnknown/LearnFromKnown/blob/UniversalUnknown-assert-1/Main/Rust/Peek%202025-07-29%2020-55.gif)
 <br>
 Let me explain the backbone,
 1. `InquireError`, `Select` are imported by `use` function
 2. Opened a function
 3. Getting value A and B as `a` and `b` variable.
-4. `.trim().parse().expect("Not a valid number");` is used to convert string input to digit of value (u32)[https://docs.rs/primitive_promotion/latest/primitive_promotion/#integer-types] type under num1 or num2 variable.
+4. `.trim().parse().expect("Not a valid number");` is used to convert string input to digit of value [u32](https://docs.rs/primitive_promotion/latest/primitive_promotion/#integer-types) type under num1 or num2 variable.
 5. `let options = vec!["Addition", "Multiplication", "Subraction", "Division"];`, `vec` lets you choose like frontend with moveable curor between the square bracket.
 6. selected_category is.. really should i explain it neo? and `ret` is just assigning output from all those function call.
 {I like to explain a lot but got pending works so 🫰}
