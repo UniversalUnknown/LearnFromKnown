@@ -220,7 +220,7 @@ fn div(a: u32, b: u32) -> u32 {
 dont expect to teach me, rather copy it and paste in your main.rs file, change few variable also function name and run it.
 Its not because of laziness(yes it is, i am editing for days), rather you can understand it yourself just by reading it(hopefully).
 Output should look like:
-[](https://github.com/UniversalUnknown/LearnFromKnown/blob/UniversalUnknown-assert-1/Main/Rust/Peek%202025-07-29%2020-55.gif)
+()[https://github.com/UniversalUnknown/LearnFromKnown/blob/UniversalUnknown-assert-1/Main/Rust/Peek%202025-07-29%2020-55.gif]
 <br>
 Let me explain the backbone,
 1. `InquireError`, `Select` are imported by `use` function
